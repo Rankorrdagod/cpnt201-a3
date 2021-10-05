@@ -1,0 +1,29 @@
+img {
+    display: block;
+    width: 120px;
+  }
+  main{
+      text-align: center;
+      align-content: center;
+  }
+
+  div {
+      display: inline-block;
+    width: 50vw;
+    height: 50vw;
+    background-image: url(../images/logo/Illuminaughty-LARGE.svg);
+    background-size: cover;
+    background-color: green;
+
+  }
+  svg {
+    width: 50vmin;
+  }
+  path {
+    fill: green;
+    
+  }
+  .iris{
+      fill:hotpink;
+
+  }
