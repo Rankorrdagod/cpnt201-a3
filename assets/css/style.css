@@ -19,11 +19,7 @@ img {
   svg {
     width: 50vmin;
   }
-  path {
-    fill: green;
-    
+  path{
+      fill:green;
   }
-  .iris{
-      fill:hotpink;
-
-  }
+  
