@@ -1,25 +1,77 @@
-img {
-    display: block;
-    width: 120px;
-  }
-  main{
-      text-align: center;
-      align-content: center;
-  }
 
-  div {
-      display: inline-block;
-    width: 50vw;
-    height: 50vw;
-    background-image: url(../images/logo/Illuminaughty-LARGE.svg);
-    background-size: cover;
-    background-color: green;
 
-  }
+
+  
   svg {
     width: 50vmin;
   }
-  path{
-      fill:green;
+  .border{
+    fill: black;
   }
+ .eyeball{
+   fill: black;
+ }
+
+ .iris{
+   fill: black;
+ }
+
+ .border2{
+  fill: orange;
+  stroke: black;
+  stroke-width: .15;
+  
+}
+.eyeball2{
+  stroke: black;
+  stroke-width: .12;
+ fill: orange;
+ 
+}
+
+.iris2{
+  stroke: black;
+  stroke-width: .12;
+ fill: red;
+ 
+}
+
+.border3{
+  fill: rebeccapurple;
+  animation: col 10s linear infinite;
+  
+}
+.eyeball3{
+ fill: greenyellow;
+ animation: col2 10s linear infinite;
+}
+
+.iris3{
+ fill:brown;
+ 
+ animation: eye 2s infinite alternate;
+ 
+}
+
+
+@keyframes eye {
+  100% {
+    transform: rotate(3deg);
+    
+  }
+}
+@keyframes col {
+  0%,25% {fill:black}
+  26%,51% {fill:green}
+  52%,76% {fill:lightblue}
+  77%,100% {fill:rebeccapurple}
+  }
+
+  @keyframes col2 {
+    0%,25% {fill:black}
+    26%,51% {fill:red}
+    52%,76% {fill:orange}
+    77%,100% {fill:yellowgreen}
+    }
+
   
